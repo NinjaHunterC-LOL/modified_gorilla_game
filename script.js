@@ -453,7 +453,7 @@ function drawBuildings() {
           const x = room * (windowWidth + gap);
           const y = floor * (windowHeight + gap);
 
-          ctx.fillStyle = settings.mode === "dark" ? "#5F76AB" : "#EBB6A2";
+          ctx.fillStyle = settings.mode === "dark" ? "#8A00C4" : "#B866DB";
           ctx.fillRect(x, y, windowWidth, windowHeight);
 
           ctx.restore();
