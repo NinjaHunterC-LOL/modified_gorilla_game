@@ -352,11 +352,11 @@ function draw() {
 function drawBackgroundSky() {
   const gradient = ctx.createLinearGradient(0, 0, 0, window.innerHeight);
   if (settings.mode === "dark") {
-    gradient.addColorStop(1, "#27507F");
-    gradient.addColorStop(0, "#58A8D8");
+    gradient.addColorStop(1, "#d403e1");
+    gradient.addColorStop(0, "#03ccff");
   } else {
-    gradient.addColorStop(1, "#F8BA85");
-    gradient.addColorStop(0, "#FFC28E");
+    gradient.addColorStop(1, "#09fbff");
+    gradient.addColorStop(0, "#460071");
   }
 
   // Draw sky
