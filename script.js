@@ -105,7 +105,7 @@ function newGame() {
     phase: "aiming", // aiming | in flight | celebrating
     currentPlayer: 1,
     round: 1,
-    windSpeed: generateWindSpeed(100),
+    windSpeed: generateWindSpeed(1),
     bomb: {
       x: undefined,
       y: undefined,
