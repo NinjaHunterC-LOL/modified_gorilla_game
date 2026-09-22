@@ -881,7 +881,7 @@ function animate(timestamp) {
 }
 
 function moveBomb(elapsedTime) {
-  const multiplier = elapsedTime / 550;
+  const multiplier = elapsedTime / 200;
 
   // Adjust trajectory by wind
   state.bomb.velocity.x += state.windSpeed * multiplier;
@@ -1021,7 +1021,7 @@ function generateWindSpeed() {
 }
 
 function setWindMillRotation() {
-  const rotationSpeed = Math.abs(50 / state.windSpeed);
+  const rotationSpeed = Math.abs(150 / state.windSpeed);
   windmillHeadDOM.style.animationDirection =
     state.windSpeed > 0 ? "normal" : "reverse";
   windmillHeadDOM.style.animationDuration = `${rotationSpeed}s`;
