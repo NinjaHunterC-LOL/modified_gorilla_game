@@ -881,7 +881,7 @@ function animate(timestamp) {
 }
 
 function moveBomb(elapsedTime) {
-  const multiplier = elapsedTime / 200;
+  const multiplier = elapsedTime / 550;
 
   // Adjust trajectory by wind
   state.bomb.velocity.x += state.windSpeed * multiplier;
