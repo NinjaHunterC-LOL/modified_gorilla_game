@@ -754,7 +754,7 @@ function computerThrow() {
   draw();
 
   // Make it look like the computer is thinking for a second
-  delayTimeoutID = setTimeout(throwBomb, 1000);
+  delayTimeoutID = setTimeout(throwBomb, 10);
 }
 
 // Simulate multiple throws and pick the best
